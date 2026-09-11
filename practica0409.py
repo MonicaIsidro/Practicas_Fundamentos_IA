@@ -1,33 +1,30 @@
 # =======================Examen 30 de septiembre =========
-
+    #333333333333333333333333333333
 #NUEVA
 
-print('Bienvenida a este portal de ayuda')
-nombre = input('Ingresa tu nombre: ').lower()
-direccion = input('Ingresa tu direccion: ').lower()
-tipo_equipo = input("¿Qué tipo de equipo es? (Laptop/PC/Tablet): ").lower()
+#print('Bienvenida a este portal de ayuda')
+# nombre = input('Ingresa tu nombre: ').lower()
+# direccion = input('Ingresa tu direccion: ').lower()
+# tipo_equipo = input("¿Qué tipo de equipo es? (Laptop/PC/Tablet): ").lower()
 
 
 # SISTEMA DE AUTORIZACIÓN PARA EXAMEN
 
 electricidad = input(" Hay electricidad s/n: ") == 's'
-#encendido = input("¿Enciende? (si/no): ") == 's'
+encendido = input("¿Enciende? (si/no): ") == 's'
 imagen = input("¿muestra imagen? (si/no): ") == 's'
 
-#tipo_equipo = input("¿Qué tipo de equipo es? (laptop/desktop): ")
+tipo_equipo = input("¿Qué tipo de equipo es? (laptop/desktop): ")
 estado_equipo = input("¿Cuál es el estado del equipo? (sin algunas piezas/ golpes/ no hay problema/ con polovo): ")
 antiguedad = int(input("¿Qué antigüedad tiene el equipo? (años): "))
 tiempo_encendido = int(input("¿Cuánto tiempo ha estado intrentando encender el equipo? (horas): "))
 
-print('----------------- Diagnostico General ----------------------------')
-print('Hola', nombre )
-print('El diagnostico que se te da con base a las preguntas anteriores es la siguiente: ')
 
 if not electricidad:
     print(" Revisar alimentacion")
 
-#elif not encendido:
- #   print(" Revisar fuente de poder")
+elif not encendido:
+    print(" Revisar fuente de poder")
 
 elif not imagen:
     print(" Revisar monitor o tarjeta de video")

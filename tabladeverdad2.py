@@ -1,3 +1,5 @@
+#1Practica/Tarea 04/09/2026
+
 print('tabla de verdad con or')
 booleanos = [True, False]
 for x in booleanos:

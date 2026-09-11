@@ -1,6 +1,7 @@
 
 # ============================================
 # SISTEMA EXPERTO DE DIAGNÓSTICO
+#Practica/Tarea 11/09/2026
 # usuario = paciente
 # ============================================
 
@@ -77,16 +78,12 @@ elif fiebre == "s" and sangrado_nasal == 's':
 elif dolor_estomago == 's' or diarrea:
     diagnostico = 'Posiblemente un alimento que ingerio estaba pasado '
 
-elif dolor_cabeza == "s" and estornudos == "s" and fiebre == 's'
+elif dolor_cabeza == "s" and estornudos == "s" and fiebre == 's':
     diagnostico = 'Posible resfriado por cambio de clima'
 
 else:
 
     diagnostico = "No se identificó un diagnostico acertado"
-
-
-
-
 
 
 print("\nResultado:")
@@ -97,6 +94,5 @@ print(nombre)
 print("--------------------------------------------------------------")
 print(diagnostico)
 print(seguro)
-
 
 #Implementación de mejores decisiones para un mejor resultado.

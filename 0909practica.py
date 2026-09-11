@@ -1,3 +1,6 @@
+#practica 09/09/2026
+
+
 import random
 from datetime import datetime
 
@@ -51,5 +54,5 @@ print("Seguimiento para tu diagnostico basado al dispositivo que tienes")
 \
 if opcion == "1":
  print("Preguntas de seguimiento")
-elif:
+
   
