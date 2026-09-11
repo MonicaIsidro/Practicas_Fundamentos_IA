@@ -1,12 +1,5 @@
 # =======================Examen 30 de septiembre =========
     #333333333333333333333333333333
-#NUEVA
-
-#print('Bienvenida a este portal de ayuda')
-# nombre = input('Ingresa tu nombre: ').lower()
-# direccion = input('Ingresa tu direccion: ').lower()
-# tipo_equipo = input("¿Qué tipo de equipo es? (Laptop/PC/Tablet): ").lower()
-
 
 # SISTEMA DE AUTORIZACIÓN PARA EXAMEN
 
