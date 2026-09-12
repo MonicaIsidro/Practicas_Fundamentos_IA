@@ -1,6 +1,6 @@
 # ==========================================================
 # CASO DE ESTUDIO   
-# PRACTICA 2 AGREGAR ADEUDOS Y LISTA OFICIAL 
+# PRACTICA 3 AGREGAR ADEUDOS Y LISTA OFICIAL 
 # Sistema de autorización para examen
 # ==========================================================
 
