@@ -1,7 +1,4 @@
 #practica que compartio el profe
-Buen día 
-
-Comparto práctica.
 
 # ============================================
 # SISTEMA EXPERTO DE DIAGNÓSTICO
